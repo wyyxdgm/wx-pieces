@@ -1,0 +1,11 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+.button {
+  margin: auto;
+  padding: 20rpx 50rpx;
+  background: rgba(10, 120, 120, .4);
+  display: inline-block;
+  border-radius: 20rpx;
+}

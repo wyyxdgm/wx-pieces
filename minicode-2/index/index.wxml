@@ -1,0 +1,15 @@
+<view class="intro">
+  <!-- <view>
+    <view>复现问题的布局:底层盖一个相机，上面放一个地图，地图上设置个性化图层</view>
+    <view>复现问题步骤：进入【1.含个性化地图的相机页】，再返回，反复多次，会黑屏</view>
+    <view>对比无问题步骤：进入【1.不含个性化地图的相机页】，再返回，反复多次，无黑屏（前面有出现过黑屏了之后，需要先把微信客户端推出后台任务再开启进行测试）</view>
+    <view>原因：隐藏页面时如果没有回收好个性化图层，页面重新显示后会出现相机黑屏，抖屏等问题。</view>
+    <view>这种情况再遇到（直接重启、直接推出）等快速离开页面的情况下无法解决</view>
+  </view> -->
+  <navigator url="/index/mapoverlay-over-camera">
+    <button class="btn" type="primary">1.含个性化地图的相机页（有问题）</button>
+  </navigator>
+  <navigator url="/index/camera-only">
+    <button class="btn" type="primary">2.不含个性化地图相机页</button>
+  </navigator>
+</view>

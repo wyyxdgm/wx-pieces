@@ -1,0 +1,3 @@
+<button type="primary" data-index="1" bindtap="toDemo">基础 demo</button>
+<button type="primary" data-index="2" bindtap="toDemo">hitTest1</button>
+<button type="primary" data-index="3" bindtap="toDemo">hitTest2</button>

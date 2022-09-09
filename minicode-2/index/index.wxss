@@ -1,0 +1,14 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+navigator {
+  margin: 50rpx auto;
+  width: 100% !important;
+}
+
+.btn {
+  width: 100% !important;
+}
