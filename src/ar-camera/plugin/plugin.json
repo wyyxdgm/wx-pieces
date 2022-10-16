@@ -1,6 +1,7 @@
 {
-  "publicComponents": {
-    "list": "components/list/list"
-  },
-  "main": "index.js"
+    "publicComponents": {},
+    "main": "index.js",
+    "pages": {
+        "camera": "pages/camera"
+    }
 }

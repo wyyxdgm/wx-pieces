@@ -5,7 +5,15 @@
   "plugins": {
     "myPlugin": {
       "version": "dev",
-      "provider": "wx96a0d5e43202fd3a"
+      "provider": "wxf4591aae94104fa1"
     }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "AR沉浸游",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "pageOrientation": "portrait"
   }
 }

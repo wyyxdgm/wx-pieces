@@ -1,0 +1,703 @@
+.theme-2-g-btn-bg {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/common/common-btn-v3.png");
+  background-size: 100% 100%;
+  text-align: center;
+  color: white;
+  font-size: 36rpx;
+}
+.theme-2-class-g-popup-bg {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-popup-bg-middle-v2.png")
+      no-repeat,
+    url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-popup-bg-top-v2.png")
+      no-repeat
+      /* url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-popup-bg-bottom@1x.png")
+      no-repeat, */;
+  background-position: 0 96rpx, 0 0;
+  background-size: 750rpx 100%, 750rpx 100rpx;
+}
+.theme-2-g-popup-bg-middle {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-popup-bg-middle-v2.png");
+  background-size: 100% 100%;
+}
+
+.theme-2-i-popup-ar-guide {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-nav.png");
+}
+
+.theme-2-i-popup-ar-exper {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-exper.png");
+}
+.theme-2-i-popup-ar-activity {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-popup-ar-activity.png");
+}
+
+.theme-2-i-popup-ca-price-tag {
+  border-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/recommended-routes/bg-tag.png")
+    28% 8%;
+}
+
+/* AR导航可点区域 */
+
+.theme-2-i-popup-poiname {
+  color: rgba(0, 0, 0, 0.85);
+}
+.theme-2-i-popup-poiaddress {
+  color: rgba(0, 0, 0, 0.5);
+}
+.theme-2-i-popup-aricon {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-popup-aricon.png");
+}
+.theme-2-i-popup-ar-bg {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-popup-ar-bg.png");
+}
+.theme-2-i-popup-ar-button {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/go-exp-ar.png");
+}
+.theme-2-i-popup-ar-poiname {
+  color: #be8348;
+}
+
+/* 弹窗内-标签-边框图 */
+.theme-2-g-popup-label-border {
+  border-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/recommended-routes/bg-tag.png");
+}
+/* 弹窗内-标签-填充色 */
+.theme-2-g-popup-label-fill {
+  background: #ffffff;
+}
+/* 弹窗内-标签-文本 */
+.theme-2-g-popup-label-text {
+  color: #af6300;
+}
+
+/******* 弹窗内-富文本内容 *******/
+.theme-2-i-popup-text {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* 弹窗内-商家酒店分类标签-边框 */
+.i-popup-businesslabel-border {
+  border-image-source: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/recommended-routes/bg-tag.png");
+  /* border-image-slice: 28%;
+  border-image-width: 8%; */
+}
+
+/* 弹窗内-商家酒店分类标签-填充色 */
+.theme-2-i-popup-businesslabel-fill {
+  background: #ffffff;
+}
+/* 弹窗内-商家-人均价格 */
+.theme-2-i-popup-business-price {
+  color: #af6300;
+}
+/* 弹窗内-商家酒店分类标签-文本 */
+.theme-2-i-popup-businesslabel-text {
+  color: #af6300;
+}
+
+/* 弹窗内-商家排名标签-边框 */
+.theme-2-i-popup-businessrank-border {
+  border: 0;
+}
+
+/* 这个和下面的应该是没有配置，所以显示有误 */
+/* 弹窗内-商家排名标签-填充色 */
+.theme-2-i-popup-businessrank-fill {
+  background: #ffd881;
+}
+/* 弹窗内-拍摄的图片 */
+.theme-2-i-ar-item-photo {
+}
+/* 弹窗内-商家排名标签-文本 */
+.theme-2-i-popup-businessrank-text {
+  color: #af6300;
+}
+/* 弹窗内-商家电话-拨打图标 */
+.theme-2-i-popup-businesstel-button {
+  background-image: url("https://res.easyarvr.com/travel/ca_phone.png");
+}
+/* 弹窗内-商家电话/营业时间-文本 */
+.theme-2-i-popup-businesstel-text {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* 弹窗内-商家-人均价格 */
+.theme-2-i-popup-business-price {
+  color: #af6300;
+}
+/* 弹窗内-美食/特色商品-标题 */
+.theme-2-i-popup-recommend-title {
+  color: #af6300;
+}
+/* 弹窗内-美食/特色商品-文本 */
+.theme-2-i-popup-recommend-text {
+  color: #ffffff;
+}
+
+/******** 弹窗内-语音讲解 ********/
+/* 弹窗内-语音讲解-进度条(已播) */
+.theme-2-i-popup-audiobar-fill-done {
+  background: linear-gradient(180deg, #ffde92 0%, #ffe6c2 100%);
+  border-radius: 8rpx;
+  border: 3rpx solid rgba(252, 247, 236, 1);
+  box-shadow: 0 0 0 2rpx rgba(225, 179, 79, 1),
+    0 0 0 2rpx rgba(225, 179, 79, 1) inset;
+  box-sizing: border-box;
+}
+
+/* 弹窗内-语音讲解-进度条(未播)-填充色 */
+.theme-2-i-popup-audiobar-fill-remainder {
+  background: #e3d7c9;
+}
+
+/* 弹窗内-语音讲解-进度条-拖拉按钮 */
+.theme-2-i-popup-audiobar-dragbutton {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-popup-audiobar-dragbutton.png);
+}
+
+/* 弹窗内-语音讲解-进度条-时间数字 */
+.theme-2-i-popup-audiobar-time {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+/* 弹窗内-语音讲解-暂停按钮 */
+.theme-2-i-popup-audio-pause {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-popup-audio-pause.png);
+}
+
+/* 弹窗内-语音讲解-播放按钮 */
+.theme-2-i-popup-audio-play {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/theme-v2/i-popup-audio-play.png);
+}
+/* 弹窗内-语音讲解-加载按钮 */
+.theme-2-i-popup-audio-loading {
+  animation-name: audio-box-loading; /* default */
+  /* custom */
+  /* animation-name: ${theme_id}-audio-box-loading; */
+}
+/* 弹窗内-语音讲解-背景图 */
+.theme-2-i-popup-audio-bg {
+  background: #ffffff;
+}
+
+/* 首页图标 */
+
+.theme-2-i-ar-bg {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/float-menu/i-360-bg.png");
+}
+.theme-2-i-vr-text {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-360-txt.png");
+}
+.theme-2-i-ar-guide {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/float-menu/i-ar-guide.png");
+}
+
+/* 强提示框 */
+.theme-2-i-strong-btn {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/v2/homepage/spot-notification/go.png);
+  background-size: 100%;
+}
+.theme-2-i-strong-bg {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp%2Fv2%2Fhomepage%2Fspot-notification%2Fstrong-bg.png");
+  background-size: 100% 100%;
+}
+
+/* 点位列表 */
+.theme-2-i-list-border {
+  border: 2rpx solid #d69706;
+}
+.theme-2-i-list-bg {
+  background: linear-gradient(180deg, #c3f0de 0%, #ffe6c2 100%);
+}
+.theme-2-i-list-title {
+  color: #af6300;
+}
+.theme-2-i-item-activity-color {
+  color: #af6300;
+}
+.theme-2-i-item-activity-border {
+  border: 2rpx solid #d69706;
+}
+.theme-2-i-list-next {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp%2Fv2%2Fhomepage%2Fspot-notification%2Fitem-go.png);
+  background-size: 100%;
+}
+
+/* 展开地图-图标 */
+.theme-2-i-expand-map {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-expand-map-v2.png");
+}
+/* 收起地图-图标 */
+.theme-2-i-shrink-map {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/map-container/i-shrink-map.png");
+}
+/* 导航状态雷达图提示半展开-图标 */
+.theme-2-i-radar-icon {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/map-container/i-map-mid-icon.png");
+}
+
+/* 雷达图的外边框 */
+.theme-2-i-map-border {
+  border: 8rpx solid #d69706;
+}
+.theme-2-i-map-border-slim {
+  border: 3rpx solid #d69706;
+}
+
+.theme-2-i-menu-achievement {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-achievement.png");
+}
+.theme-2-i-menu-close {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-close.png");
+}
+.theme-2-i-menu-culture {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-culture.png");
+}
+.theme-2-i-menu-main {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-main.png");
+}
+.theme-2-i-menu-cards {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-coupons.png");
+}
+.theme-2-i-menu-course {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-course.png");
+}
+.theme-2-i-menu-footmark {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-footmark.png");
+}
+.theme-2-i-menu-vr {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-vr.png");
+}
+.theme-2-i-menu-activity-sum {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/float-menu/i-menu-sum.png");
+}
+/* 综合活动 */
+.theme-2-i-menu-activity-all {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-vr.png");
+}
+.theme-2-i-menu-activity-duck {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-vr.png");
+}
+.theme-2-i-menu-activity-pet {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-vr.png");
+}
+.theme-2-i-menu-activity-fish {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-vr.png");
+}
+.theme-2-i-menu-activity-card {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-vr.png");
+}
+.theme-2-i-menu-activity-quiz {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-vr.png");
+}
+.theme-2-i-menu-activity-treasure {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/float-menu/i-menu-treasure.png");
+}
+.theme-2-i-menu-activity-spirit {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-menu-vr.png");
+}
+.theme-2-i-menu-activity-wall {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/float-menu/i-menu-wall.png");
+}
+
+/* 扫描页面 - 2个按钮 */
+.theme-2-share_post_save {
+  /* 分享海报-保存本地按钮 */
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/packageScan/capture/capture_save_v2.png")
+    no-repeat center;
+  background-size: 100% 100%;
+}
+
+.theme-2-share_post_to_wechat {
+  /* 分享海报-微信分享按钮 */
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/packageScan/capture/capture_share_v2.png")
+    no-repeat center;
+  background-size: 100% 100%;
+}
+
+/* pages/shared/shared 分享页*/
+.theme-2-shared-bg {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/pages/shared/bg.png");
+  background-size: cover;
+}
+.theme-2-shared-bg-title {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/pages/shared/scan-shared-title.png");
+  background-size: 100% 100%;
+}
+.theme-2-shared-close {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/pages/shared/close.png");
+  background-size: 100% 100%;
+}
+.theme-2-shared-open {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/pages/shared/open.png");
+  background-size: 100% 100%;
+}
+.theme-2-share-page-bg {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/apps/huangguoshu/pages/components/shared/w-bg-page-basic.png");
+  background-size: 100% 100%;
+}
+.theme-2-share-text {
+  color: #ffffff
+}
+
+/* packageScan/scan/scan 扫描页 */
+.theme-2-scan-start-btn {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/apps/yuyuanhy/scan-start-btn.png);
+  background-size: 100% 100%;
+}
+.theme-2-c-take-photo {
+  background-image: url(https://mp.easyar.cn/artravel/icon-scan-camera.png);
+  background-size: 100% 100%;
+}
+
+.theme-2-c-bottom-icon {
+  background-size: 100%;
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp%2Fv2%2Fscan%2Fscanlist-bg-title.png);
+}
+
+.theme-2-culture-bottom-icon {
+  background-size: 100%;
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/culture-creation/culture-list-icon@2x.png);
+}
+
+.theme-2-c-bottom-bg {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp%2Fv2%2Fscan%2Fscanlist-bg.png");
+  background-size: 100% 100%;
+}
+
+.theme-2-c-bottom-border {
+  border: 6rpx solid #d69706 !important;
+}
+
+.theme-2-c-scan-hintbg {
+  background: #f4ede5;
+}
+
+.theme-2-c-hint-text {
+  color: #af6300;
+}
+
+.theme-2-c-tips {
+  color: #af6300;
+}
+
+/* 菜单 */
+.theme-2-i-search {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/i-search.png");
+}
+/* 顶部分类菜单项-文本-默认 */
+.theme-2-i-menu-text-normal {
+  color: #9e896e;
+}
+
+/* 顶部分类菜单项-文本-选中 */
+.theme-2-i-menu-text-select {
+  color: #ffffff;
+}
+
+/* 顶部分类菜单项-背景-选中 */
+.theme-2-i-menu-fill-select {
+  background-color: #be8348;
+}
+
+/* 推荐路线 */
+.theme-2-r-expand-routes {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/recommended-routes/r-up-arrow.png");
+}
+
+/* 警告弹窗 */
+.theme-2-g-warning-bg {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/v2/homepage/warning/warning-bg.png");
+}
+.theme-2-g-warning-title {
+  color: #af6300;
+}
+.theme-2-g-warning-text {
+  color: #000000;
+}
+.theme-2-g-warning-s-button-left {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/v2/homepage/warning/warning-go.png");
+}
+.theme-2-g-warning-s-button-right {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/v2/homepage/warning/warning-later1.png");
+}
+.theme-2-g-warning-l-button {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/v2/homepage/warning/warning-later2.png");
+}
+
+/*拼图*/
+
+.theme-2-t-rule-bg {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp%2Fv2%2Ftreasure%2Fmap%2Fpopup-bg.png);
+}
+
+.theme-2-t-rule-btn-isee {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp%2Fv2%2Ftreasure%2Fmap%2Fpopup-button.png);
+}
+
+.theme-2-t-collect-bg {
+  background: url(https://sightp-tour-cdn.sightp.com/wxapp/v2/treasure/map/popup-bg.png);
+  background-size: 100% 100%;
+}
+.theme-2-t-btn-rule {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/treasure/t-btn-rule.png);
+}
+
+.theme-2-t-btn-cards {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/apps/tonglu/treasure/treasure-cards.png);
+}
+
+.theme-2-t-btn-map {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/apps/tonglu/treasure/treasure-map.png);
+}
+.theme-2-i-btn-square {
+  box-shadow: 0rpx 0rpx 10rpx 0rpx rgba(214, 151, 6, 0.5),
+    0rpx 0rpx 4rpx 3rpx rgba(214, 151, 6, 1) inset;
+}
+.theme-2-t-collect-all {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/apps/tonglu/treasure/collect-see.png);
+  background-size: 100% 100%;
+}
+.theme-2-t-collect-some {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/apps/tonglu/treasure/collect-go.png);
+  background-size: 100% 100%;
+}
+.theme-2-t-collect-btn {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/apps/tonglu/treasure/collect-collect.png);
+  background-size: 100% 100%;
+}
+
+/* 新手引导 */
+.theme-2-i-guide-dialog-bg {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp%2Fv2%2Fhomepage%2Fguide%2Fguide-bg2.png);
+}
+.theme-2-i-guide-dialog-text {
+  color: #d69706;
+}
+.theme-2-i-guide-dialog-text-next {
+  color: #af6300;
+}
+.theme-2-i-guide-dialog-text1-bg {
+  background: #fff;
+}
+.theme-2-i-guide-dialog-text2-bg {
+  background: #d69706;
+}
+.theme-2-i-guide-dialog-text2 {
+  color: #fff;
+}
+
+.theme-2-i-guide-close {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/homepage/guide/close.png);
+}
+
+.theme-2-i-guide-point {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/v2/homepage/guide/guide-marker.png);
+}
+
+/* 文创 */
+.theme-2-culture-p-bg {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/culture-creation/ar-product-bg.png");
+  background-size: 100%;
+}
+.theme-2-culture-start-crs-bg {
+  background-image: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/culture-creation/start-crs-bg-v2.png");
+}
+.theme-2-culture-start-crs-btn {
+  background: #d69706;
+}
+.theme-2-culture-start-crs-text {
+  color: #af6300;
+}
+
+.theme-2-g-scan-text {
+  color: #af6300;
+}
+
+/* 镜头上的扫描框 */
+.theme-2-g-scan-bg {
+  background: url("https://sightp-tour-cdn.sightp.com/ce8c866e93e742aeb36d3aa9e4c181f1/20211125/55b733a80e634c95b7e73e2021443f0c.png");
+  background-size: 100% 100%;
+}
+
+/** 红包墙活动 */
+.theme-2-w-btn-pocket {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/i-pocket.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-btn-map {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/pocket-map.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-pic-slide-arrow {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/up@2x.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-scan-bg {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/w-scan-bg.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-go-now {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/w-go-now.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-open-guide {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/w-open-guide.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-rule-close {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/dialog-close.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-text {
+  color: #ca2f0d;
+}
+.theme-2-w-gift-bg {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-bg1-v2-pocket.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-plain {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-bg-share-v2.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-bg-used {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-bg-v2-used.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-bg-wx {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-bg-wx.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-btn-cash {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-btn-cash.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-btn-coupon {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-btn-coupon.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-btn-exper {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-btn-exper.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-btn-share {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-btn-share.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-btn-try {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-btn-try.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-btn {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-btn.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-btn-revolve {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-btn-revolve.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-gift-used {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/gift/w-gift-used.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-scanlist-next {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/scanlist-next.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-scanlist-previous {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/scanlist-previous.png");
+  background-size: 100% 100%;
+}
+.theme-2-w-open-arguide {
+  background: url("https://sightp-tour-cdn.sightp.com/wxapp/remote/images/activity/pocketWall/w-open-arguide.png");
+  background-size: 100% 100%;
+}
+.theme-2-wall-rule-text {
+  /* 红包墙-规则-文字颜色 */
+  color: #af6300;
+}
+
+/* v2.6.0首页部分 */
+.theme-2-h-bg {
+  background: #f4ede5;
+}
+.theme-2-h-video-pause-bg {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/index/components/index-home/banner-video-pause-bg.png);
+}
+.theme-2-h-hot-icon {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/index/components/index-home/hotIcon.png);
+}
+.theme-2-h-recommend-icon {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/index/components/index-home/recommend.png);
+}
+.theme-2-h-at-bg {
+  background: #f4ede5;
+}
+.theme-2-h-at-tabs-text {
+  color: #9e896e;
+}
+.theme-2-h-at-tabs-active {
+  color: #be8348;
+}
+.theme-2-h-at-bottom-tips {
+  color: #c8baa9;
+}
+.theme-2-h-at-tabs-active-cloud {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/index/bannerImages/cloud.png);
+}
+.theme-2-h-banner-dot-bg {
+  background: #da9f19;
+}
+.theme-2-h-banner-dot-bg-common {
+  background: #d8d8d8;
+}
+
+/* 我的tabbar部分 */
+.theme-2-s-profile-decoration {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/pages/personal/profile.png);
+}
+.theme-2-s-item-next {
+  background-image: url(https://sightp-tour-cdn.sightp.com/wxapp/remote/images/pages/personal/person-list-item.png);
+}
+.theme-2-t-collect-some {
+  background: url("https://sightp-tour-cdn.sightp.com/8c1e90bfb5b2455bb57b0619184f8706/20220413/ff3b6844947843c29df1a57da12dcf5d.png")
+    no-repeat center;
+  background-size: 100% 100%;
+}
+.theme-2-t-collect-all {
+  /* 集齐碎片的我的拼图弹窗按钮 */
+  background: url("https://sightp-tour-cdn.sightp.com/8c1e90bfb5b2455bb57b0619184f8706/20220413/1d0397b28dfb4871af9c3f2b61e26b94.png")
+    no-repeat center;
+  background-size: 100% 100%;
+}
+.theme-2-t-collect-btn {
+  /* 在点位上触发获得碎片弹窗的收藏按钮 */
+  background: url("https://sightp-tour-cdn.sightp.com/8c1e90bfb5b2455bb57b0619184f8706/20220413/8697246661a3460f867b043fe444a103.png")
+    no-repeat center;
+  background-size: 100% 100%;
+}
+.theme-2-t-btn-rule {
+  /* 活动规则按钮 */
+  background: url("https://sightp-tour-cdn.sightp.com/8c1e90bfb5b2455bb57b0619184f8706/20220304/be7ec0ecdc374a89b41ce97d75ac185b.png")
+    no-repeat center;
+  background-size: 100% 100%;
+}
+.theme-2-t-btn-map {
+  /* 寻宝地图按钮 */
+  background: url("https://sightp-tour-cdn.sightp.com/8c1e90bfb5b2455bb57b0619184f8706/20220304/7fb56ce5cace4dc9ac22a060940ea566.png")
+    no-repeat center;
+  background-size: 100% 100%;
+}
+.theme-2-t-btn-cards {
+  /* 我的图鉴按钮 */
+  background: url("https://sightp-tour-cdn.sightp.com/8c1e90bfb5b2455bb57b0619184f8706/20220304/d6ef828666bb402883ef9b9c40ef8290.png")
+    no-repeat center;
+  background-size: 100% 100%;
+}
+.theme-2-t-rule-text {
+  /* 拼图寻宝-规则-文字颜色 */
+  color: #465362;
+}
+.theme-2-rich-text-color {
+  /* 规则文本颜色 */
+  color: rgba(0, 0, 0, 0.5);
+}

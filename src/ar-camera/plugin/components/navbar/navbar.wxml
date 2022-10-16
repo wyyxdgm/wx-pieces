@@ -1,0 +1,25 @@
+<view class="navigate-container {{transparent?'transparent':''}} {{!tabBarAnimation ? 'default-navigate-container' : ''}}" animation="{{tabBarAnimation}}">
+  <view style="height:{{statusBarHeight}}px"></view>
+  <view class="navigate-bar" style="height:{{titleBarHeight}}px">
+    <view class="navigate-icon" bind:tap="tap" style="height: {{menuHeight}}px; width: {{menuWidth}}px;box-shadow: {{(isShowBtn1 !== isShowBtn2 || (!isShowBtn1 && !isShowBtn2)) ? 'unset' : '0 0 0 .5rpx #f2f2f2;'}}">
+      <block wx:if="{{isShowBtn1}}">
+        <view bind:tap="goBack" class="navigator-back" hover-class="none">
+          <image src="../../images/back_icon@3x.png"></image>
+        </view>
+      </block>
+      <!-- isShowBtn2 -->
+      <block wx:if="{{isShowBtn1 && isShowBtn2}}">
+        <view class="navigator-border"></view>
+      </block>
+      <!-- isShowBtn2 -->
+      <block wx:if="{{isShowBtn2}}">
+        <view class="navigator-home" bind:tap="goHome" hover-class="none">
+          <image src="../../images/home_icon@3x.png"></image>
+        </view>
+      </block>
+    </view>
+    <view class="navigate-title flex-1" style="margin-right: {{menuWidth}}px;">{{title}}</view>
+    <view class="navigate-icon" style="box-shadow: none;"></view>
+  </view>
+</view>
+<view class="navigate-line" style="height: {{statusBarHeight + titleBarHeight}}px; width: 100%;"></view>

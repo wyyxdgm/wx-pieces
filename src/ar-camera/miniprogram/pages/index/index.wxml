@@ -1,1 +1,1 @@
-<list />
+<navigator class="nav" style="margin-top:20rpx" url="plugin://myPlugin/camera">相机页面</navigator>

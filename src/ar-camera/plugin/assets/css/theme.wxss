@@ -1,0 +1,17 @@
+/**** 主题：test ****/
+.theme-85 .theme-2-share_post_bg {
+  /* 分享背景图 */
+  background: url('https://sightp-tour-cdn.sightp.com/c3d87b3d428a458da55586d8f181c82e/20220808/c9385b0bcd6f4006baaac9ac6de9a8b8.png') no-repeat center;
+  background-size: 100% 100%;
+}
+
+.theme-85 .theme-2-t-rule-bg {
+  /* 活动规则背景图 */
+  background: url('https://sightp-tour-cdn.sightp.com/c3d87b3d428a458da55586d8f181c82e/20220825/e28110a23dbd43d1bdc1116aef9db163.png') no-repeat center;
+  background-size: 100% 100%;
+}
+
+.theme-85 .theme-2-rich-text-color {
+  /* 活动规则文本颜色 */
+  color: #454545;
+}
