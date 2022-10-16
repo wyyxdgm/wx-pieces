@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+        "nav-bar": "../components/navbar/navbar",
+        "ar-camera": "../components/ar-camera/ar-camera"
+    },
+    "disableScroll": true,
+    "navigationBarTitleText": "AR文旅",
+    "navigationStyle": "custom"
+}

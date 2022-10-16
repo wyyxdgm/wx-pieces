@@ -1,0 +1,10 @@
+/* plugin/pages/camera.wxss */
+.cover-contents {
+  position: absolute;
+  z-index: 3;
+  left: 10%;
+  width: 80%;
+  height: 100rpx;
+  bottom: 100rpx;
+  background: rgba(255, 0, 0, 0.8);
+}

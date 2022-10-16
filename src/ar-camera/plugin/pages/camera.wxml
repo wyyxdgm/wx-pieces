@@ -1,0 +1,9 @@
+<!-- plugin/pages/camera.wxml -->
+<view class="{{theme.theme_id}}" style="width: 100vw; height: 100vh;">
+  <nav-bar title="{{navBarTitle}}" show-home="{{true}}" style="height:{{navBarHeight}}px;" on-go-back="{{beforeGoBack}}"></nav-bar>
+  <view class="homepage-body relative" style="width:100%;height:calc(100vh - {{navBarHeight}}px - 0rpx);">
+    <ar-camera show-camera="true" class="camera" flash="off" bindinitdone="onCameraInit"></ar-camera>
+    <!-- <ar-camera bind:unload="cameraUnload" id="ar-camera" show-camera="{{true}}" unload="{{unloadCamera}}" flash="off" class="camera" bindinitdone="onCameraInit" binderror="onCameraError"></ar-camera> -->
+    <view class="cover-contents"></view>
+  </view>
+</view>

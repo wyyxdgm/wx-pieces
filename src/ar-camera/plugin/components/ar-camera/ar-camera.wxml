@@ -1,8 +1,8 @@
 <block wx:if="{{showCamera}}">
   <block wx:if="{{show}}">
-    <camera  flash="off" class="camera" bindinitdone="onCameraInit" binderror="onCameraError" />
+    <camera flash="off" class="camera" bindinitdone="onCameraInit" binderror="onCameraError" />
   </block>
-  <view  class="loading-bg animated slow {{(loading || showTips)?'':'fadeOut'}}" style="pointer-events: {{showTips?'unset':''}};">
+  <view class="loading-bg animated slow {{(loading || showTips)?'':'fadeOut'}}" style="pointer-events: {{showTips?'unset':''}};">
     <view wx:if="{{loading}}" class="loader-content">
       <view class="loader"></view>
       <view wx:if="{{unload&&unloadTitle}}" class="title">{{unloadTitle}}</view>
