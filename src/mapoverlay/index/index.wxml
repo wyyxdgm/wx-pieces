@@ -1,0 +1,13 @@
+<!--packageDemos/pages/map-groundoverlay/groundoverlay.wxml-->
+<map
+  id="map"
+  enable-poi="{{false}}"
+  class="full abs"
+  scale="{{scale}}"
+  bindregionchange="mapRegionChange"
+  bindupdated="mapUpdated"
+  longitude="{{longitude}}"
+  latitude="{{latitude}}"
+  max-scale="{{maxScale}}"
+  min-scale="{{minScale}}"
+/>
