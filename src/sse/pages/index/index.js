@@ -28,25 +28,33 @@ Page({
       const uint8Array = new Uint8Array(event.data);
       let message = String.fromCharCode.apply(null, uint8Array);
       console.log(`message`, message);
-      let idx = message.indexOf("data:");
-      if (idx > -1) {
-        let j = message.substring(idx + 5);
-        let obj = JSON.parse(j);
-        console.log(`json`, j);
-        console.log(`obj`, obj);
-      }
-      if (~message.indexOf("[DONE]")) {
-        // 判断是否是最后一条消息
-        console.log("done");
-        // 关闭 SSE 连接
-        RequestTask.offChunkReceived();
+      while (message) {
+        let idx = message.indexOf("data:");
+        let eidx = message.indexOf('\n\n');
+        debugger
+        if (idx > -1 && eidx > -1) {
+          let j = message.substring(idx + 5, eidx);
+          message = message.substring(eidx + 2);
+          let obj = JSON.parse(j);
+          console.log(`json`, j);
+          console.log(`obj`, obj);
+        }
+        if (~message.indexOf("[DONE]")) {
+          // 判断是否是最后一条消息
+          console.log("done");
+          // 关闭 SSE 连接
+          RequestTask.offChunkReceived();
+          break;
+        }
       }
     });
   },
   tapGpt() {
     // 发送 SSE 请求
     let RequestTask = wx.request({
-      url: "http://localhost:9090/zy/chat/openId",
+      // url: "http://localhost:9090/zy/chat/openId",
+      url: "https://chat.sightp.com/zy/chat/openId",
+      // url: 'http://10.10.10.227:9090/zy/chat/openId',
       method: "POST",
       dataType: "arraybuffer",
       enableChunked: true,
@@ -72,24 +80,25 @@ Page({
       const uint8Array = new Uint8Array(event.data);
       // let message = String.fromCharCode.apply(null, uint8Array);
       let message = decodeURIComponent(escape(String.fromCharCode.apply(null, uint8Array)));
-      console.log(`message`, message);
-      let idx = message.indexOf("data:");
-      if (idx > -1) {
-        let j = message.substring(idx + 5);
-        try {
+      console.log('message', message);
+      while (message) {
+        let idx = message.indexOf("data:");
+        let eidx = message.indexOf('\n\n');
+        if (idx > -1 && eidx > -1) {
+          let j = message.substring(idx + 5, eidx);
+          message = message.substring(eidx + 2);
+          console.log(message);
           let obj = JSON.parse(j);
           console.log(`json`, j);
           console.log(`obj`, obj);
-        } catch (error) {
-          console.error(error);
-          console.error(j);
         }
-      }
-      if (~message.indexOf("[DONE]")) {
-        // 判断是否是最后一条消息
-        console.log("done");
-        // 关闭 SSE 连接
-        RequestTask.offChunkReceived();
+        if (message.indexOf("[DONE]") == 0) {
+          // 判断是否是最后一条消息
+          console.log("done");
+          // 关闭 SSE 连接
+          RequestTask.offChunkReceived();
+          break;
+        }
       }
     });
   }
