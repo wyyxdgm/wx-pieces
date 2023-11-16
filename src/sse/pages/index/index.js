@@ -39,7 +39,7 @@ Page({
           console.log(`json`, j);
           console.log(`obj`, obj);
         }
-        if (~message.indexOf("[DONE]")) {
+        if (message.indexOf("[DONE]") == 0) {
           // 判断是否是最后一条消息
           console.log("done");
           // 关闭 SSE 连接
