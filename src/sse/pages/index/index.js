@@ -66,7 +66,7 @@ Page({
       dataType: "arraybuffer",
       enableChunked: true,
       data: {
-        text: "您好，您能用1000个以上的文字，介绍一下附近好玩的地方吗",
+        text: "您好，您能用100个以上的文字，介绍一下附近好玩的地方吗",
         useMouthShape: false,
         stream: true,
         sessionId: null,
